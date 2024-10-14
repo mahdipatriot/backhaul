@@ -1,6 +1,6 @@
 # backhaul Installer
 
-This script provides a menu-driven interface to manage Waterwall configurations and services.
+This script provides a menu-driven interface to manage Backhaul configurations and services.
 
 ## Features
 - **Create Configuration and Service:** Set up backhaul with customizable options.
