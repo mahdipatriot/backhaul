@@ -1,4 +1,4 @@
-# backhaul Installer
+# Backhaul Installer
 
 This script provides a menu-driven interface to manage Backhaul configurations and services.
 
