@@ -7,8 +7,8 @@ This script provides a menu-driven interface to manage Waterwall configurations 
 - **Remove Configuration and Service:** Completely remove backhaul configurations and systemd service.
 - **Restart Service:** Restart the backhaul service.
 - ** create proper cron to restart the server
-- **GitHub:** [mahdipatriot/waterwall](https://github.com/mahdipatriot/backhaul)
-- **Source:** [radkesvat/WaterWall](https://github.com/Musixal/Backhaul)
+- **GitHub:** [mahdipatriot/backhaul](https://github.com/mahdipatriot/backhaul)
+- **Source:** [Musixal/Backhaul](https://github.com/Musixal/Backhaul)
 
 
 ## Installation
