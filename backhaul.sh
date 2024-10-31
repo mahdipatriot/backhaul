@@ -1,4 +1,4 @@
-#!/bin/bash
+##!/bin/bash
 
 # Color variables
 RED='\033[0;31m'
@@ -17,7 +17,7 @@ run_cmd() {
 install_backhaul() {
     echo -e "${BLUE}Creating directory and downloading Backhaul...${NC}"
     run_cmd mkdir -p /root/backhaul && cd /root/backhaul
-    run_cmd wget https://github.com/Musixal/Backhaul/releases/latest/download/backhaul_linux_amd64.tar.gzbackhaul_linux_amd64.tar.gz
+    run_cmd wget https://github.com/Musixal/Backhaul/releases/latest/download/backhaul_linux_amd64.tar.gz
     run_cmd tar -xzvf backhaul_linux_amd64.tar.gz
     run_cmd rm backhaul_linux_amd64.tar.gz
 
@@ -140,7 +140,7 @@ uninstall_backhaul() {
 update_backhaul() {
     cd /root/backhaul
     run_cmd rm backhaul_linux_amd64.tar.gz
-    run_cmd wget https://github.com/Musixal/Backhaul/releases/download/v0.5.1/backhaul_linux_amd64.tar.gz
+    run_cmd wget https://github.com/Musixal/Backhaul/releases/latest/download/backhaul_linux_amd64.tar.gz
     run_cmd tar -xzvf backhaul_linux_amd64.tar.gz
     run_cmd rm backhaul_linux_amd64.tar.gz
     run_cmd systemctl restart backhaul.service
